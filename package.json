@@ -1,0 +1,25 @@
+{
+  "name": "ajaxu",
+  "version": "0.0.1",
+  "description": "A jQuery plugin to make unique ajax requests.",
+  "main": "ajaxu.js",
+  "authors": ["Elliott Linder <elliott@linder.bz>"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darfink/AjaxU.git"
+  },
+  "keywords": [
+    "jquery",
+    "ajax",
+    "unique",
+    "ajaxu"
+  ],
+  "files": [
+    "ajaxu.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darfink/AjaxU/issues"
+  },
+  "homepage": "https://github.com/darfink/AjaxU#readme"
+}
