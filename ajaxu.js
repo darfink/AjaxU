@@ -21,7 +21,7 @@
     var clonedOptions = $.extend(true, $.ajaxu.defaults, options);
     var xhr = requests[uid];
 
-    if (xhr && xhr.readyState != 4) {
+    if(xhr && xhr.readyState != 4) {
       if(!clonedOptions.abort) {
         // Return the current request if it's not supposed to be aborted
         return xhr;
@@ -78,7 +78,7 @@
   // Add $.postu and $.getu methods
   $.each(['getu', 'postu'], function (i, method) {
     $[method] = function (uid, url, data, callback, type) {
-      if ($.isFunction(data)) {
+      if($.isFunction(data)) {
         type = type || callback;
         callback = data;
         data = undefined;
